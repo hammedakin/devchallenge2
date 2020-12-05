@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: #ffffff;
+    margin: 0 auto;
+    color: black;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif!important;
+    overflow-x: hidden;
+  }
+.card{
+  box-shadow: none;
+  padding: 0%;
+}
+
+  /* icon */
+.icon img {
+      border-radius: 15px;
+      
+      
+  }
+  .icon h6 {
+    font-weight: 600;
+    font-size: 120%!important;
+    margin-top: 2rem;
+  }
+  .icon p {
+      
+    font-size: 100%!important;
+    
+  }
+  /* icon */
+
+  /* Gallery */
+  .gallery img {
+    border-radius: 15px;
+    margin: 2rem  0 0 0;
+    /* box-shadow: 5px 5px 9px 1px #d8d6d6; */
+
+}
+
+
+  /* Gallery */
+
+  .footer h6{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+
+
+  @media screen and (max-width: 580px) {
+
+    .icon h6 {
+      font-weight: 600;
+      font-size: 90%!important;
+      margin-top: 2rem;
+    }
+    .icon p {
+      
+      font-size: 80%!important;
+      
+    }
+
+    .col-2 {
+   margin: 0 5px!important;
+    max-width: 5rem;
+
+    padding: 0;
+    }
+
+    .col-2 p {
+      font-size: 60%!important;
+    }
+
+    .col-4, .col-6, .col-8 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .stubborn {
+      height: 95%;
+    }
+
+    .gallery img {
+      margin: 1rem  0 0 0;
+  }
+
+  .footer h6{
+    font-size: 1rem;
+  }
+  }
