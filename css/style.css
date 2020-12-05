@@ -48,7 +48,11 @@ body {
     margin-bottom: 2rem;
   }
 
+footer {
+  padding: 1rem;
+  background-image: linear-gradient(to right, #025302, white, #025302);
 
+}
 
   @media screen and (max-width: 580px) {
 
