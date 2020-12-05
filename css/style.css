@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    background-color: #ffffff;
+  background-image: linear-gradient(to right, #02660752, #ffffff41, #02660752);
     margin: 0 auto;
     color: black;
     line-height: 1.6;
@@ -11,6 +11,7 @@ body {
 .card{
   box-shadow: none;
   padding: 0%;
+  background-color: transparent;
 }
 
   /* icon */
